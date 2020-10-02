@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  lotus-fullnode:
+  - apiVersion: v2
+    appVersion: 0.7.0
+    created: "2020-10-02T00:36:31.548065611-04:00"
+    description: Provision a fullnode lotus node
+    digest: 24d388b84b42e21f1e4a76a065e9ce459001d3e103861bc171d9beae0ac30c30
+    name: lotus-fullnode
+    type: application
+    urls:
+    - https://github.com/ognots/helm-charts/releases/download/lotus-fullnode-0.1.1/lotus-fullnode-0.1.1.tgz
+    version: 0.1.1
+  visor:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-10-02T00:36:31.626049579-04:00"
+    description: A Helm chart for Kubernetes to run visor
+    digest: e8ca2951d165be14f6c08afff3572878fae8095da09201c2633e8cfc054268be
+    name: visor
+    type: application
+    urls:
+    - https://github.com/ognots/helm-charts/releases/download/visor-0.1.0/visor-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-02T00:36:31.388643714-04:00"
